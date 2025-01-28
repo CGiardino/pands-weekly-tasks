@@ -1,1 +1,1 @@
-test
+This repository contains weekly tasks for the Programming and Scripting course.
