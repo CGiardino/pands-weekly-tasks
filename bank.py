@@ -1,5 +1,6 @@
-# sum of two amounts in cents and print the result in euros
+# add two cents amounts 
 # author: Carmine Giardino
+# takes two user input amounts in cents, sums them, and prints the result in euros.
 
 try:
     amount1 = int(input("Enter amount1(in cent):"))
