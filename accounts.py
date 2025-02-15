@@ -16,7 +16,8 @@ else:
 
 # Extra:
 # Modify the program to deal with account numbers of any length
-# By using len() function we can get the length of the slice without the last 4 digits and replace them with "X"
+# By using len() function we can get the length of the slice without the last 
+# 4 digits and replace them with "X"
 
 account_number_any_length = input(
     "Please enter an account number of any length: "
