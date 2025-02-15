@@ -1,0 +1,7 @@
+# Takes in a float amount of dollars and returns that absolute amount in cent.
+# Author: Carmine Giardino
+
+import math
+from decimal import Decimal
+number_to_convert = abs(Decimal(input("Please enter an amount: ")))
+print("The amount in cent is: ", math.floor(number_to_convert * 100))
