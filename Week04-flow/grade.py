@@ -1,5 +1,5 @@
 # Reads a student's score and prints the corresponding grade.
-
+# Author: Carmine Giardino
 
 while True:
     percentage = round(float(input("Enter your score (-1 to exit):")))
