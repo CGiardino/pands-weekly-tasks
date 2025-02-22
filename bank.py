@@ -1,4 +1,4 @@
-# add two cents amounts 
+# add two cents amounts
 # author: Carmine Giardino
 # takes two user input amounts in cents, sums them,
 # and prints the result in euros.
