@@ -9,7 +9,7 @@
 # Author: Carmine Giardino
 
 input_to_parse = input("Enter a positive integer: ")
-while (not input_to_parse.isdigit()) or int(input_to_parse) <= 0:
+while (not input_to_parse.isdigit()) or (int(input_to_parse) <= 0):
     input_to_parse = input("Please enter a positive integer: ")
 
 number = int(input_to_parse)
