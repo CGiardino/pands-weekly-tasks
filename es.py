@@ -32,7 +32,7 @@ while True:
 
 
 def count_es_in_file(filename_to_analyze: str, letter_to_count: str) -> int:
-    """Counts occurrences of a specific letter in a text file efficiently."""
+    # Counts occurrences of a specific letter in a text file
     count = 0
     try:
         with open(filename_to_analyze, 'rt', encoding="utf-8") as f:
