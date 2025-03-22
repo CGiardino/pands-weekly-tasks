@@ -19,8 +19,22 @@ cubic_function = line_data ** 3
 
 # Create the plot
 plt.figure(figsize=(10, 6))
-plt.hist(normal_data, bins=30, alpha=0.6, label=f'Normal Distribution: μ={mean}, σ={std_dev}')
-plt.plot(line_data, cubic_function, color='red', label='Function: $h(x) = x^3$')
+
+# Plot the histogram of the normal distribution samples
+plt.hist(
+    normal_data,
+    bins=30,            # Number of histogram bins
+    alpha=0.6,          # Transparency of bars
+    label=f'Normal Distribution: μ={mean}, σ={std_dev}'  # Legend label
+)
+
+# Overlay the cubic function plot on top of the histogram
+plt.plot(
+    line_data,
+    cubic_function,
+    color='red',
+    label='Function: $h(x) = x^3$'  # LaTeX-style label for the legend
+)
 
 # Enhance plot
 plt.title('Histogram and Function Plot')
@@ -28,6 +42,8 @@ plt.xlabel('x (Input Value)')
 plt.ylabel('Frequency / h(x) Value')
 plt.legend()
 plt.grid(True)
+# Automatically adjust subplot params for a clean layout
 plt.tight_layout()
+# Save the figure to a PNG file
 plt.savefig('plot.png')
 plt.show()
