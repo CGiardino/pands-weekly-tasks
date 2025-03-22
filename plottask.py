@@ -42,7 +42,7 @@ plt.xlabel('x (Input Value)')
 plt.ylabel('Frequency / h(x) Value')
 plt.legend()
 plt.grid(True)
-# Automatically adjust subplot params for a clean layout
+# Avoid overlapping elements
 plt.tight_layout()
 # Save the figure to a PNG file
 plt.savefig('plot.png')
